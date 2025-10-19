@@ -77,8 +77,15 @@ def eval_pope(model, tokenizer, processor, args):
             correct_ans += 1.0
         
     end_time = time.time()
-    poope_acc = correct_ans / len(pope_dataset)
-    print(f"POPE Evaluation result: {poope_acc:.4f}, use time: {(end_time - start_time):.4f}")
+    pope_acc = correct_ans / len(pope_dataset)
+    print(f"POPE Evaluation result: {pope_acc:.4f}, use time: {(end_time - start_time):.4f}")
+
+    with open(args.output_file, "a", encoding="utf-8") as f:
+        f.write("-"*30 + "Start llava baseline POPE" + "-"*30 + "\n")
+        f.write(f"POPE Evaluation result: {pope_acc:.4f}\n")
+        f.write(f"Use time: {(end_time - start_time):.4f}\n")
+        f.write("-"*30 + "End llava baseline POPE" + "-"*30 + "\n")
+        f.write("\n")
 
 
 if __name__ == '__main__':
@@ -90,6 +97,8 @@ if __name__ == '__main__':
 
     # model_info
     parser.add_argument('--model_path', type=str, default='llava-hf/llava-1.5-7b-hf')
+
+    parser.add_argument('--output_file', type=str, default="./llava_vispruner.txt")
 
     args = parser.parse_args()
     print(args)
