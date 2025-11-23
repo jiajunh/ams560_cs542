@@ -1,0 +1,108 @@
+------------------------------Start llava vispruner POPE------------------------------
+retain_img_tokens: 32
+Important_tokens: 3
+Diverse tokens: 29
+Attention sink threshold: 0.02
+POPE Evaluation result: 0.7683
+Use time: 448.7058
+------------------------------End llava vispruner POPE------------------------------
+
+------------------------------Start llava vispruner POPE------------------------------
+retain_img_tokens: 32
+Important_tokens: 8
+Diverse tokens: 24
+Attention sink threshold: 0.02
+POPE Evaluation result: 0.7690
+Use time: 448.5284
+------------------------------End llava vispruner POPE------------------------------
+
+------------------------------Start llava vispruner POPE------------------------------
+retain_img_tokens: 32
+Important_tokens: 16
+Diverse tokens: 16
+Attention sink threshold: 0.02
+POPE Evaluation result: 0.7703
+Use time: 451.7615
+------------------------------End llava vispruner POPE------------------------------
+
+------------------------------Start llava vispruner POPE------------------------------
+retain_img_tokens: 32
+Important_tokens: 24
+Diverse tokens: 8
+Attention sink threshold: 0.02
+POPE Evaluation result: 0.7737
+Use time: 450.9071
+------------------------------End llava vispruner POPE------------------------------
+
+------------------------------Start llava vispruner POPE------------------------------
+retain_img_tokens: 64
+Important_tokens: 6
+Diverse tokens: 58
+Attention sink threshold: 0.02
+POPE Evaluation result: 0.7940
+Use time: 472.0130
+------------------------------End llava vispruner POPE------------------------------
+
+------------------------------Start llava vispruner POPE------------------------------
+retain_img_tokens: 64
+Important_tokens: 16
+Diverse tokens: 48
+Attention sink threshold: 0.02
+POPE Evaluation result: 0.7960
+Use time: 472.5565
+------------------------------End llava vispruner POPE------------------------------
+
+------------------------------Start llava vispruner POPE------------------------------
+retain_img_tokens: 64
+Important_tokens: 32
+Diverse tokens: 32
+Attention sink threshold: 0.02
+POPE Evaluation result: 0.8010
+Use time: 473.7462
+------------------------------End llava vispruner POPE------------------------------
+
+------------------------------Start llava vispruner POPE------------------------------
+retain_img_tokens: 64
+Important_tokens: 48
+Diverse tokens: 16
+Attention sink threshold: 0.02
+POPE Evaluation result: 0.7957
+Use time: 474.2744
+------------------------------End llava vispruner POPE------------------------------
+
+------------------------------Start llava vispruner POPE------------------------------
+retain_img_tokens: 128
+Important_tokens: 12
+Diverse tokens: 116
+Attention sink threshold: 0.02
+POPE Evaluation result: 0.8233
+Use time: 498.4227
+------------------------------End llava vispruner POPE------------------------------
+
+------------------------------Start llava vispruner POPE------------------------------
+retain_img_tokens: 128
+Important_tokens: 32
+Diverse tokens: 96
+Attention sink threshold: 0.02
+POPE Evaluation result: 0.8233
+Use time: 498.4316
+------------------------------End llava vispruner POPE------------------------------
+
+------------------------------Start llava vispruner POPE------------------------------
+retain_img_tokens: 128
+Important_tokens: 64
+Diverse tokens: 64
+Attention sink threshold: 0.02
+POPE Evaluation result: 0.8173
+Use time: 499.4950
+------------------------------End llava vispruner POPE------------------------------
+
+------------------------------Start llava vispruner POPE------------------------------
+retain_img_tokens: 128
+Important_tokens: 96
+Diverse tokens: 32
+Attention sink threshold: 0.02
+POPE Evaluation result: 0.8157
+Use time: 500.1349
+------------------------------End llava vispruner POPE------------------------------
+
